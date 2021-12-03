@@ -1,0 +1,46 @@
+# ZUSAMMENFASSUNG #
+
+- Programm, das APIs verwendet (REST oder SOAP)
+  - APIs sollen an mind. 3 Stellen verwendet werden
+- Programmiersprache egal
+
+## Abgabe
+
+- source code
+- technischer Bericht (1 Seite)
+- im Internet laufen lassen, oder vorführen in extra Fernlehre-Termin
+
+- 1. Draft: Sunday, 14 November 2021, 11:59 PM
+  - Bericht: was macht das Programm, welche Sprache, welche APIs
+
+- 2. Draft: Saturday, 18 December 2021, 11:59 PM
+  - Bericht Endversion
+  - Source code work-in-progress
+
+- Endversion: Saturday, 15 January 2022, 11:59 PM
+
+
+
+
+
+=====================================================================
+
+Abgabeteil Buzanits
+by Peter Buzanits - Tuesday, 21 September 2021, 11:41 AM
+Number of replies: 1
+
+Für jene, die nicht in der ersten Übungseinheit waren und zur Erinnerung für alle anderen:
+
+Für die Benotung meiner Hälfte der Übung aus SSOA sollen Zweiergruppen gebildet werden. Die Gruppenwahl hat Thomas Schütz schon im Moodle online gestellt. Die Gruppen sind in meinem Teil die selben.
+
+Jede Gruppe soll sich einen Usecase für eine serviceorientierte Software-Architektur ausdenken. Dafür soll ein Programm geschrieben werden, das APIs zur Kommunikation verwendet (REST oder SOAP). Die APIs sollen an mind. 3 Stellen verwendet werden. "Verwenden" bedeutet in diesem Zusammenhang entweder, dass ein Client auf ein API zugreift, oder dass selbst ein API zur Verfügung gestellt wird. Wenn also ein API gebaut wird und ein Client, der dieses benutzt, sind damit bereits 2 "Verwendungen" eines API abgedeckt.
+
+Die Wahl der Programmiersprache ist frei. Es sollen aber keine "visuellen Sprachen" verwendet werden, bei denen man sich den Code "zusammenklickt" wie z. B. Scratch etc. Es sollte also wirklich Code geschrieben werden.
+
+Abgegeben wird der Sourcecode sowie ein etwa einseitiger "technischer Bericht" zu dem Programm. Darin soll es allgemein beschrieben werden, und speziell auf die SOA-Aspekte eingegangen werden. Also die APIs, die im Spiel sind beschrieben werden.
+
+Wenn das Programm über das WWW getestet werden kann, soll im Bericht stehen, wie ich es ausprobieren kann. Sollte es irgendwo lokal laufen, machen wir uns einen Fernlehre-Termin aus, wo ihr mir das Programm in Webex vorführt.
+
+Es wird zwei Draft-Abgaben geben. Im ersten soll schon ein Bericht enthalten sein, der beschreibt, was das Programm tut, welche Programmiersprache verwendet wird und welche APIs im Spiel sein werden. Im zweiten sollte schon der Sourcecode (soweit bis dahin vorhanden) enthalten sein und der Bericht in der geplanten Endversion.
+
+Da es so aussieht, dass die Übungstermine intern nicht verschoben werden können, hat Gruppe 2 erst am 30. Oktober die nächste Übungseinheit. Daher habe ich den Abgabetermin für den ersten Draft für diese von 23. Oktober auf 4. November verlegt. Alle Termine sind im Moodle bei den Assignments zu finden.
