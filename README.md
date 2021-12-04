@@ -11,7 +11,8 @@
 ## How to run the app
 
 Install `docker` https://docs.docker.com/engine/install/ and `docker-compose` https://docs.docker.com/compose/install/.
-Become root, or make sure your user is allowed to use `docker`.
+
+Now become root, or make sure your user is allowed to use `docker`.
 
 Clone this repo to your machine.
 
