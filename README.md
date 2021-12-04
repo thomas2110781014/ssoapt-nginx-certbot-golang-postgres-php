@@ -30,11 +30,8 @@ or by setting it in a `.env` file in the root project directory.
 
 ```
 PUBLIC_SERVER_NAME=<public_dns_name>
-AWS=no
 STAGING=1
 ```
-
-If you are using AWS cloud, set `AWS=yes`, PUBLIC_SERVER_NAME then is not needed. 
 
 Set `STAGING` to `0` if you want to use Let's Encrypt without `--staging` (production mode).
 
