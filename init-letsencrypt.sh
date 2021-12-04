@@ -8,7 +8,7 @@ fi
 source .env
 
 # if using AWS cloud, get DNS name 
-if [ $AWS = 'yes' ] ; then
+if [ "$AWS" = "yes" ] ; then
   PUBLIC_SERVER_NAME=$(curl http://169.254.169.254/latest/meta-data/public-hostname)
 else
 # else use nip.io to get a dns name
