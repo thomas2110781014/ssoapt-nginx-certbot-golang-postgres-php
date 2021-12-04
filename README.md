@@ -14,6 +14,8 @@ Install `docker` https://docs.docker.com/engine/install/ and `docker-compose` ht
 
 Now become root, or make sure your user is allowed to use `docker`.
 
+Make sure your server has port 80 and 443 exposed to the Internet.
+
 Clone this repo to your machine.
 
 Before the first run, get a Let's Encrypt certificate by executing the bash script `./init-letsencrypt.sh`.
