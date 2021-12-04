@@ -7,15 +7,9 @@ fi
 
 source .env
 
-# if using AWS cloud, get DNS name 
-if [ "$AWS" = "yes" ] ; then
-  PUBLIC_SERVER_NAME=$(curl http://169.254.169.254/latest/meta-data/public-hostname)
-else
-# else use nip.io to get a dns name
-  if [ -z $PUBLIC_SERVER_NAME ] ; then
-    PUBLIC_IPV4_ADDRESS=$(curl https://ipinfo.io/ip)
-    PUBLIC_SERVER_NAME=$PUBLIC_IPV4_ADDRESS.nip.io
-  fi
+if [ -z $PUBLIC_SERVER_NAME ] ; then
+  PUBLIC_IPV4_ADDRESS=$(curl https://ipinfo.io/ip)
+  PUBLIC_SERVER_NAME=$PUBLIC_IPV4_ADDRESS.nip.io
 fi
 sed -i "s/public_dns_name_here/$PUBLIC_SERVER_NAME/" docker-compose.yaml
 
